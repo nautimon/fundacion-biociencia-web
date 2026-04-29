@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "FasGD_OVKxprpM3kdlmPN"
+uri = "file://artifacts/lab-site/public/hero-connectome.png"
+type = "image"
+title = "abstract neural connectome visualization"

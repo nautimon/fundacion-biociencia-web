@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Research Lab"
+version = "1.0.0"
+id = "artifacts/lab-site"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22768
+
+[services.development]
+run = "pnpm --filter @workspace/lab-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/lab-site", "run", "build" ]
+publicDir = "artifacts/lab-site/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22768"
+BASE_PATH = "/"
