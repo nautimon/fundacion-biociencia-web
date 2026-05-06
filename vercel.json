@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd artifacts/lab-site && pnpm install --no-frozen-lockfile && pnpm run build",
+  "outputDirectory": "artifacts/lab-site/dist",
+  "installCommand": "echo skip"
+}
