@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm run build",
-  "outputDirectory": "artifacts/lab-site/public",
-  "installCommand": "pnpm install --no-frozen-lockfile"
+  "buildCommand": "cd artifacts/lab-site && pnpm run build",
+  "outputDirectory": "artifacts/lab-site/dist",
+  "installCommand": "cd artifacts/lab-site && pnpm install --no-frozen-lockfile"
 }
