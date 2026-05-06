@@ -15,7 +15,7 @@ export default defineConfig({
     dedupe: ["react", "react-dom"],
   },
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist"),
+    outDir: path.resolve(import.meta.dirname, "public"),
     emptyOutDir: true,
   },
 });
