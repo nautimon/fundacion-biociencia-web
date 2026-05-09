@@ -557,7 +557,7 @@ export default function Home() {
                           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm font-mono text-muted-foreground">
                             <div className="flex items-center gap-2">
                               <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
-                              200+ International Publications
+                              100+ International Publications
                             </div>
                             <div className="flex items-center gap-2">
                               <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
