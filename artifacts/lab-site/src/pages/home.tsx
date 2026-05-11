@@ -256,7 +256,7 @@ export default function Home() {
               <div>
                 <h2 className="text-4xl font-serif mb-8">The Biological Library</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                  Fundación Biociencia maintains one of the world's most singular collections of extremophiles. Our living library contains over **400 microorganisms** isolated from the most hostile environments on Earth, many of which are completely new to science and unregistered elsewhere.
+                  Fundación Biociencia maintains one of the world's most unique and diverse collections of extremophiles. Our living library contains over 400 microorganisms isolated from the most hostile environments on Earth, many of which are completely new to science and unregistered elsewhere. Considering that each microorganism has about 2000 enzymes our library capacity is, therefore, expandable to more than 800,000 distinct enzymes.
                 </p>
                 <div className="space-y-6">
                   {[
@@ -433,7 +433,7 @@ export default function Home() {
                   { title: "Protein Lab", text: "Extracting and testing unique proteins to find tools for medicine, industry, and environmental science." },
                   { title: "Microscopy", text: "Morphological characterization of microbes using optical and fluorescence microscopy to observe growth patterns." },
                   { title: "Sterile Room", text: "High-purity environment with HEPA filtration and positive pressure for contamination-free procedures." },
-                  { title: "Microbiology", text: "Creating custom culture media to grow microbes that thrive in heat, crushing pressure, or toxic environments." },
+                  { title: "Microbiology", text: "Creating custom culture media to grow microbes that thrive in high or low temperatures, crushing pressure, or toxic environments." },
                   { title: "Scaling Lab", text: "Teaching host organisms to mass-produce resilient enzymes for durable industrial applications." },
                   { title: "Cold Chamber", text: "Dedicated storage for environmental samples collected during expeditions to preserve their biological integrity." },
                   { title: "Bioinformatics", text: "Using computational simulations to study DNA and proteins, designing solutions for energy and agriculture." }
